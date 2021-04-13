@@ -5,10 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap CSS: Linkando a um diretório do bootstrap V4 para não precisar varios arquivos no projeto-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <!-- Font Awesome -->
+    <!-- Font Awesome: site usado para o mesmo fim que o bootstrap, porém, aqui podemos importar alguns logos/imagens/etc -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
     <!-- CSS Costumizado -->
@@ -17,8 +17,9 @@
 
     <title>Sport Line: Você é um Campeão</title>
   </head>
+  <!-- Parte Carlos: Navbar, capa, estrutura(divisões/rodapé/responsividade/etc)-->
   <body>
-    <div class="tampanav fixed-top"><br><br><br></div>
+    <!-- <div class="tampanav fixed-top"><br><br><br></div> -->
     <header><!-- inicio Cabecalho -->
       <nav class="navbar navbar-expand-sm navbar-dark navbar-costom fixed-top">
         <div class="container">
@@ -59,16 +60,32 @@
 
         </div>
       </nav>
-    </header><!--/fim Cabecalho -->
+    </header><!--/fim Cabecalho --><!--/fim Cabecalho -->
+    <!--\ Parte Carlos: barra de navegação. -->
+
+    <!-- Parte Carlos: CAPA DO SITE
+                        -Usado um efeito parallax, ou seja, a imagem de fundo da capa fica fixa no seu lugar, 
+                        com o conteúdo passando por cima dela, causando um efeito interessante.
+
+                        -Já na tela de inicio (HOME/index.html), temos um convite para a pessoa que está vendo, onde
+                        ela pode se cadastrar ao site e receber as ultimas notícias via um input. Ao digitar seu e-mail
+                        e clicar em cadastrar-se ela é direcionada para uma tela onde digita as demais informações.
+
+                        -
+
+                         
+    -->
     <section id="home1"><!-- Início seção home -->
       <div class="container mb-3 ">
         <div class="row">
           <div class="col-md-6 d-flex"><!-- Textos da seção -->
-            <div class="align-self-center fundo">
-              <h1 class="display-4">Aqui você é um campeão!</h1>
-              <h3 class="mb-4 ">
+            <div class="align-self-center">
+              <div class="fundo">
+                <h2 class="display-6">Aqui você é um campeão!</h2>
+              <h4 class="mb-4 ">
                 Junte-se a nós para ficar por dentro de tudo que acontece no mundo esportivo.
-              </h3>
+              </h4>
+              </div>
 
               <form class="mt-4 mb-4">
                 <div class="input-group input-group-lg">
@@ -91,10 +108,11 @@
         </div>
       </div>
     </section><!--/fim seção home -->
+    <!--\ Parte Carlos: CAPA DO SITE -->
 
     <!-- Conteudo 1 -->
     <section>
-      <div class="container caixa">
+      <div class="container caixatopo">
         <div class="row">
           <div class="col-md-6 d-flex">
             <div class="align-self-center">
@@ -198,7 +216,7 @@
           <div class="row">
             <div class="col-md-8">
             <p>
-               <b>&copyTodos direitos reservados.</b>
+               <b style="font-size: 2px;">&copyTodos direitos reservados.</b>
             </p>
           </div>
           <div class="col-md-4 d-flex justify-content-end">
