@@ -11,14 +11,6 @@ body{
 .divisor {
 	width: 1px;
 	background: white;
-
-    
-        
-          
-        
-    
-    @@ -8,7 +16,6 @@
-  
 	margin: 12px 15px;
 }
 
@@ -27,14 +19,6 @@ body{
 }
 
 .navbar-costom .navbar-nav .nav-link:hover {
-
-    
-        
-          
-        
-    
-    @@ -17,17 +24,13 @@
-  
     color: black;
     background: white;
     border-radius: 10px;
@@ -50,14 +34,6 @@ body{
 #home1{
     background: url(../imagens/capa.png) no-repeat;
     color: white;
-
-    
-        
-          
-        
-    
-    @@ -37,26 +40,27 @@ body {
-  
     background-size: 100% 60%;
     margin-bottom: 0px;
     /*efeito parallax*/
@@ -88,14 +64,6 @@ body{
 .fundo{
   background: rgba(0, 0, 0, .3);
   border-radius: 20px;
-
-    
-        
-          
-        
-    
-    @@ -65,12 +69,10 @@ body {
-  
   padding-left: 20px;
   padding-right: 20px; 
   /*padding-bottom: 0px;*/
@@ -108,16 +76,9 @@ body{
 .btn-primary{
     color: white;
     background-color: #BFB08F;
-
-    
-        
-          
-        
-    
-    @@ -84,12 +86,6 @@ body {
-  
     border-color: white;
 }
+
 .btn-primary:hover{
 	color: #fff;
 	border: white;
@@ -128,17 +89,10 @@ body{
 .btn-outline-light {
     color: #f8f9fa;
     background-color: transparent;
-
-    
-        
-          
-        
-    
-    @@ -102,72 +98,98 @@ body {
-  
     background-image: none;
     border-color: #f8f9fa;
 }
+
 .btn-outline-light:hover {
     color: black;
     background-color: white;
@@ -239,20 +193,14 @@ div .espaco-liga{
   .carousel-caption p {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
-
-    
-        
-          
-        
-    
-    @@ -187,23 +209,17 @@ body{
-  
     line-height: 1.4;
   }
+
   .featurette-heading {
     font-size: 50px;
   }
 }
+
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
@@ -275,14 +223,6 @@ div .espaco-liga{
 .carousel-item {
   height: 30rem;
   background-color: #777;
-
-    
-        
-          
-        
-    
-    @@ -216,10 +232,7 @@ body{
-  
   color: white;
     background-size: 100% 100%;
     margin-bottom: 0px;
@@ -296,35 +236,28 @@ div .espaco-liga{
 
 /*Para o funcionamento dos itens de ligas*/
 
-
-    
-          
-            
-          
-          
-            
-          
-    
-    @@ -249,6 +262,7 @@ section img{
-  
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
   padding-bottom: var(--jumbotron-padding-y);
   margin-bottom: 0;
   background-color: transparent;
 }
+
 @media (min-width: 768px) {
   .jumbotron {
     padding-top: calc(var(--jumbotron-padding-y) * 2);
     padding-bottom: calc(var(--jumbotron-padding-y) * 2);
   }
 }
+
 .jumbotron p:last-child {
   margin-bottom: 0;
 }
+
 .jumbotron-heading {
   font-weight: 300;
 }
+
 .jumbotron .container {
   max-width: 40rem;
 }
