@@ -18,10 +18,17 @@
     <title>Sport Line: Você é um Campeão</title>
   </head>
 
+  <!-- Corpo/Estrutura do site feito por Carlos Kayson-->
   <body>
-    
+    <!-- 
+      CARLOS KAYSON: barra de navegação
+      -Barra de navegação feita com base no framework bootstrap e algumas alterações próprias, 
+      assim como a classe navbar-costom.
+      -A classe navbar-costom conta com uma barra transparente, numa tonalidade preta.
+     -->
     <header><!-- inicio Cabecalho -->
       <nav class="navbar navbar-expand-sm navbar-dark navbar-costom fixed-top">
+        <!-- Alem disso, a barra de navegação fica fixa ao topo, acompanhando o conteúdo do site em relação a rolagem(fixed-top) -->
         <div class="container">
           
           <a href="index.html" class="navbar-brand">
@@ -60,17 +67,21 @@
 
         </div>
       </nav>
-    </header>
+    </header><!--\CARLOS KAYSON: barra de navegação-->
+
+    <!-- CARLOS KAYSON: Capa do site -->
     <section id="home1"><!-- Início seção home -->
       <div class="container mb-3 ">
-        <div class="row">
-          <div class="col-md-6 d-flex"><!-- Textos da seção -->
-            <div class="align-self-center">
-              <div class="fundo">
+        <div class="row"><!-- Criada uma linha -->
+          <div class="col-md-6 d-flex"><!-- Dentro da linha criada, foi dividida pela metade (6/12) -->
+            <div class="align-self-center"><!-- Textos centralizados -->
+              <div class="fundo"><!-- A classe fundo está sendo utilizada para aplicar uma caixa escura com tom de transparente, semelhante
+                                      à barra de navegação, e foi aplicada para os textos não sumirem diante da claridade de imagens. -->
                 <h2 class="display-6">Aqui você é um campeão!</h2>
-              <h4 class="mb-4 ">
-                Junte-se ao nosso time para ficar por dentro de tudo que acontece no mundo esportivo.
-              </h4>
+
+                <h4 class="mb-4 "><!-- Convite a se juntar aos usuários da platafotma -->
+                  Junte-se ao nosso time para ficar por dentro de tudo que acontece no mundo esportivo.
+                </h4>
               </div>
 
               <form class="mt-4 mb-4">
@@ -82,13 +93,13 @@
                         Cadastre-se
                       </a>
                     </button>
-
                   </div>
                 </div>
               </form>
             </div>
           </div><!--/fim textos da seção -->
-          <div class="col-md-6 d-none d-md-block container align-self-center ">
+
+          <div class="col-md-6 d-none d-md-block container align-self-center "><!--Imagem png aplicada à capa do site-->
             <img src="imagens/ney.png" width="400px" height="400px" class="mt-5">
           </div>
         </div>
